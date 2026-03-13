@@ -11,7 +11,13 @@
 <h1>Ecos de Aether</h1>
 
 <canvas id="game" width="800" height="600"></canvas>
-
+<div id="mobile">
+<button onclick="player.y-=20">⬆</button><br>
+<button onclick="player.x-=20">⬅</button>
+<button onclick="attack()">⚔</button>
+<button onclick="player.x+=20">➡</button><br>
+<button onclick="player.y+=20">⬇</button>
+</div>
 <div id="ui">
 HP: <span id="hp">100</span> |
 Inventário: <span id="inventory"></span>
