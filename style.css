@@ -6,6 +6,10 @@ font-family:Arial;
 }
 
 canvas{
-background:#2c6e49;
+background:#3c8f5a;
 border:3px solid white;
+}
+
+#ui{
+margin-top:10px;
 }
